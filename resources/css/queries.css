@@ -1,0 +1,156 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    
+    .photo img {
+        width: 300px;
+        padding: 0px 0px;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    body { font-size: 13px;}
+    section {padding: 40px 0px;}
+    
+    .aboutme img {
+        margin-top: -20px;
+        height: 220px;
+    }
+    
+    .photo img {
+        width: 240px;
+        padding: 0px 0px;
+    }
+    
+}
+
+
+/* Small phones to small tablets: from 0 to 767px */
+@media only screen and (max-width: 767px) {
+
+    body { font-size: 10px;}
+    section {padding: 40px 0px;}
+    
+    .aboutme img {
+        margin-top: 0px;
+        margin-right: 120px;
+        height: 160px;
+    }
+    
+    .photo img {
+        width: 240px;
+        padding: 0px 0px;
+    }
+
+    nav img {
+        width: 50px;
+    }
+    
+    .small-bold{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+    .project-website-paragraph {
+        padding: 10px 0;
+        margin-right: 100px;
+        margin-left: 40px;
+    }
+    
+    .gallery {
+        padding-top: 40px;
+    }
+    
+    .photo img {
+        width: 160px;
+        padding: 0px 0px;
+    }
+
+    .photo img:hover {
+        transform: scale(1.00);
+    }
+    
+    .footer-nav li,
+    .footer-icons li{
+        margin-top: 8px;
+        margin-left: -10px;
+    }
+    
+    .footer-icons li {
+        margin-top: 1px;
+    }
+    
+    .footer img {
+        width: 50px;
+        margin-left: 40px;
+    }   
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+ 
+    body { font-size: 10px;}
+    section {padding: 20px 0px;}
+    
+    nav img {
+        width: 45px;
+        margin-left: 60px;
+    }
+    
+    .main-nav li {
+        padding: 5px 15px;
+    }
+    
+    h3 {
+        margin-left: 40px;
+    }
+    
+    .am {
+        margin-left: 40px;
+        margin-top: 15px;
+        padding-right: 120px;
+    }
+    
+     .aboutme img {
+        margin-top: 20px;
+        margin-right: 185px;
+        height: 200px;
+    }
+    
+    .project .websiteimg {
+        width: 65%;
+        margin-left: 30px;
+    }
+    
+    .photo-row {
+        list-style: none;
+        margin: 20px 50px 0px 40px;
+    }
+    
+    .photo img {
+        width: 110px;
+    }
+    
+    .footer-nav li,
+    .footer-icons li{
+        margin-top: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    
+    .footer-icons li {
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+    
+    .footer img {
+        width: 40px;
+        margin-left: 0px;
+    } 
+}

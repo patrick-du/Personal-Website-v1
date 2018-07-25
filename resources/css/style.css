@@ -277,7 +277,7 @@ a.btn.btn-resume {
     width: 350px;
     height: auto;
     transform: scale(0.9);
-    transition: transform 0.3s;
+    transition: transform 0.2s;
 }
 
 .photo img:hover {
